@@ -1,0 +1,25 @@
+{
+  "description": "This is the end-result of lesson 1 for setting up the development environment.",
+  "keywords": [],
+  "author": "Syed Kazmi",
+  "name": "rxjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "uuid": "^7.0.1"
+  },
+  "devDependencies": {
+    "rxjs-compat": "^6.5.4",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
